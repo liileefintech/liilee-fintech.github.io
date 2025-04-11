@@ -1,12 +1,12 @@
 title: LiileeFinTech
 tagline: A text-focused Jekyll theme
-description: A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 url: "https://liileefintech.github.io"
 baseurl: ""
 
 theme: jekyll-theme-chirpy
 lang: en
-timezone: Asia/shanghai
+timezone: Asia/Shanghai
 
 github:
   username: liileefintech
@@ -21,70 +21,47 @@ social:
     - https://x.com/liileefintech
     - https://github.com/liileefintech
 
-webmaster_verifications:
-  google:
-  bing:
-  alexa:
-  yandex:
-  baidu:
-  facebook:
+webmaster_verifications: {}
 
-analytics:
-  google:
-    id:
-  goatcounter:
-    id:
-  umami:
-    id:
-    domain:
-  matomo:
-    id:
-    domain:
-  cloudflare:
-    id:
-  fathom:
-    id:
+analytics: {}
 
-pageviews:
-  provider:
+pageviews: {}
 
-theme_mode:
+theme_mode: light
 
 cdn: "https://chirpy-img.netlify.app"
 
 avatar: "/commons/avatar.jpg"
-social_preview_image:
+social_preview_image: ""
 
 toc: true
 
 comments:
-  provider:
+  provider: disqus
   disqus:
-    shortname:
+    shortname: your_disqus_shortname
   utterances:
-    repo:
-    issue_term:
+    repo: your_username/your_repo
+    issue_term: pathname
   giscus:
-    repo:
-    repo_id:
-    category:
-    category_id:
-    mapping:
-    strict:
-    input_position:
-    lang:
-    reactions_enabled:
+    repo: your_username/your_repo
+    repo_id: your_repo_id
+    category: General
+    category_id: your_category_id
+    mapping: url
+    reactions_enabled: true
 
 assets:
   self_host:
-    enabled:
-    env:
+    enabled: true
+  env: production
 
 pwa:
   enabled: true
   cache:
     enabled: true
     deny_paths:
+      - "/admin"
 
 paginate: 10
 
